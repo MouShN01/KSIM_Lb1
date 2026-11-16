@@ -1,0 +1,500 @@
+[
+  {
+    "slug": "diffusion",
+    "parameter": "diffusion-rate",
+    "title": "Дифузія феромону",
+    "conditions": "population = 125 · evaporation-rate = 10",
+    "color": "#2563a6",
+    "values": [
+      0,
+      25,
+      50,
+      75,
+      99
+    ],
+    "runs": [
+      {
+        "value": 0,
+        "run": 1,
+        "initial_food": 317,
+        "remaining_food": 19
+      },
+      {
+        "value": 0,
+        "run": 2,
+        "initial_food": 302,
+        "remaining_food": 20
+      },
+      {
+        "value": 0,
+        "run": 3,
+        "initial_food": 318,
+        "remaining_food": 30
+      },
+      {
+        "value": 0,
+        "run": 4,
+        "initial_food": 309,
+        "remaining_food": 9
+      },
+      {
+        "value": 0,
+        "run": 5,
+        "initial_food": 317,
+        "remaining_food": 13
+      },
+      {
+        "value": 25,
+        "run": 1,
+        "initial_food": 326,
+        "remaining_food": 0
+      },
+      {
+        "value": 25,
+        "run": 2,
+        "initial_food": 300,
+        "remaining_food": 65
+      },
+      {
+        "value": 25,
+        "run": 3,
+        "initial_food": 306,
+        "remaining_food": 0
+      },
+      {
+        "value": 25,
+        "run": 4,
+        "initial_food": 309,
+        "remaining_food": 57
+      },
+      {
+        "value": 25,
+        "run": 5,
+        "initial_food": 310,
+        "remaining_food": 0
+      },
+      {
+        "value": 50,
+        "run": 1,
+        "initial_food": 315,
+        "remaining_food": 77
+      },
+      {
+        "value": 50,
+        "run": 2,
+        "initial_food": 320,
+        "remaining_food": 4
+      },
+      {
+        "value": 50,
+        "run": 3,
+        "initial_food": 310,
+        "remaining_food": 47
+      },
+      {
+        "value": 50,
+        "run": 4,
+        "initial_food": 305,
+        "remaining_food": 0
+      },
+      {
+        "value": 50,
+        "run": 5,
+        "initial_food": 313,
+        "remaining_food": 0
+      },
+      {
+        "value": 75,
+        "run": 1,
+        "initial_food": 320,
+        "remaining_food": 0
+      },
+      {
+        "value": 75,
+        "run": 2,
+        "initial_food": 321,
+        "remaining_food": 0
+      },
+      {
+        "value": 75,
+        "run": 3,
+        "initial_food": 303,
+        "remaining_food": 0
+      },
+      {
+        "value": 75,
+        "run": 4,
+        "initial_food": 294,
+        "remaining_food": 0
+      },
+      {
+        "value": 75,
+        "run": 5,
+        "initial_food": 305,
+        "remaining_food": 0
+      },
+      {
+        "value": 99,
+        "run": 1,
+        "initial_food": 311,
+        "remaining_food": 0
+      },
+      {
+        "value": 99,
+        "run": 2,
+        "initial_food": 310,
+        "remaining_food": 0
+      },
+      {
+        "value": 99,
+        "run": 3,
+        "initial_food": 315,
+        "remaining_food": 18
+      },
+      {
+        "value": 99,
+        "run": 4,
+        "initial_food": 317,
+        "remaining_food": 61
+      },
+      {
+        "value": 99,
+        "run": 5,
+        "initial_food": 316,
+        "remaining_food": 0
+      }
+    ]
+  },
+  {
+    "slug": "evaporation",
+    "parameter": "evaporation-rate",
+    "title": "Випаровування феромону",
+    "conditions": "population = 125 · diffusion-rate = 50",
+    "color": "#17806d",
+    "values": [
+      0,
+      5,
+      10,
+      20,
+      40
+    ],
+    "runs": [
+      {
+        "value": 0,
+        "run": 1,
+        "initial_food": 310,
+        "remaining_food": 20
+      },
+      {
+        "value": 0,
+        "run": 2,
+        "initial_food": 317,
+        "remaining_food": 0
+      },
+      {
+        "value": 0,
+        "run": 3,
+        "initial_food": 313,
+        "remaining_food": 6
+      },
+      {
+        "value": 0,
+        "run": 4,
+        "initial_food": 309,
+        "remaining_food": 10
+      },
+      {
+        "value": 0,
+        "run": 5,
+        "initial_food": 299,
+        "remaining_food": 2
+      },
+      {
+        "value": 10,
+        "run": 1,
+        "initial_food": 315,
+        "remaining_food": 77
+      },
+      {
+        "value": 10,
+        "run": 2,
+        "initial_food": 320,
+        "remaining_food": 4
+      },
+      {
+        "value": 10,
+        "run": 3,
+        "initial_food": 310,
+        "remaining_food": 47
+      },
+      {
+        "value": 10,
+        "run": 4,
+        "initial_food": 305,
+        "remaining_food": 0
+      },
+      {
+        "value": 10,
+        "run": 5,
+        "initial_food": 313,
+        "remaining_food": 0
+      },
+      {
+        "value": 5,
+        "run": 1,
+        "initial_food": 309,
+        "remaining_food": 0
+      },
+      {
+        "value": 5,
+        "run": 2,
+        "initial_food": 316,
+        "remaining_food": 0
+      },
+      {
+        "value": 5,
+        "run": 3,
+        "initial_food": 323,
+        "remaining_food": 0
+      },
+      {
+        "value": 5,
+        "run": 4,
+        "initial_food": 316,
+        "remaining_food": 0
+      },
+      {
+        "value": 5,
+        "run": 5,
+        "initial_food": 317,
+        "remaining_food": 0
+      },
+      {
+        "value": 20,
+        "run": 1,
+        "initial_food": 298,
+        "remaining_food": 63
+      },
+      {
+        "value": 20,
+        "run": 2,
+        "initial_food": 307,
+        "remaining_food": 62
+      },
+      {
+        "value": 20,
+        "run": 3,
+        "initial_food": 317,
+        "remaining_food": 81
+      },
+      {
+        "value": 20,
+        "run": 4,
+        "initial_food": 306,
+        "remaining_food": 58
+      },
+      {
+        "value": 20,
+        "run": 5,
+        "initial_food": 314,
+        "remaining_food": 69
+      },
+      {
+        "value": 40,
+        "run": 1,
+        "initial_food": 319,
+        "remaining_food": 64
+      },
+      {
+        "value": 40,
+        "run": 2,
+        "initial_food": 302,
+        "remaining_food": 60
+      },
+      {
+        "value": 40,
+        "run": 3,
+        "initial_food": 311,
+        "remaining_food": 64
+      },
+      {
+        "value": 40,
+        "run": 4,
+        "initial_food": 294,
+        "remaining_food": 55
+      },
+      {
+        "value": 40,
+        "run": 5,
+        "initial_food": 313,
+        "remaining_food": 66
+      }
+    ]
+  },
+  {
+    "slug": "population",
+    "parameter": "population",
+    "title": "Кількість мурах",
+    "conditions": "diffusion-rate = 50 · evaporation-rate = 10",
+    "color": "#a55919",
+    "values": [
+      25,
+      50,
+      100,
+      150,
+      200
+    ],
+    "runs": [
+      {
+        "value": 25,
+        "run": 1,
+        "initial_food": 301,
+        "remaining_food": 212
+      },
+      {
+        "value": 25,
+        "run": 2,
+        "initial_food": 307,
+        "remaining_food": 178
+      },
+      {
+        "value": 25,
+        "run": 3,
+        "initial_food": 298,
+        "remaining_food": 177
+      },
+      {
+        "value": 25,
+        "run": 4,
+        "initial_food": 317,
+        "remaining_food": 180
+      },
+      {
+        "value": 25,
+        "run": 5,
+        "initial_food": 304,
+        "remaining_food": 177
+      },
+      {
+        "value": 50,
+        "run": 1,
+        "initial_food": 304,
+        "remaining_food": 146
+      },
+      {
+        "value": 50,
+        "run": 2,
+        "initial_food": 324,
+        "remaining_food": 137
+      },
+      {
+        "value": 50,
+        "run": 3,
+        "initial_food": 305,
+        "remaining_food": 120
+      },
+      {
+        "value": 50,
+        "run": 4,
+        "initial_food": 328,
+        "remaining_food": 143
+      },
+      {
+        "value": 50,
+        "run": 5,
+        "initial_food": 315,
+        "remaining_food": 160
+      },
+      {
+        "value": 100,
+        "run": 1,
+        "initial_food": 304,
+        "remaining_food": 74
+      },
+      {
+        "value": 100,
+        "run": 2,
+        "initial_food": 314,
+        "remaining_food": 87
+      },
+      {
+        "value": 100,
+        "run": 3,
+        "initial_food": 322,
+        "remaining_food": 0
+      },
+      {
+        "value": 100,
+        "run": 4,
+        "initial_food": 299,
+        "remaining_food": 56
+      },
+      {
+        "value": 100,
+        "run": 5,
+        "initial_food": 312,
+        "remaining_food": 73
+      },
+      {
+        "value": 150,
+        "run": 1,
+        "initial_food": 301,
+        "remaining_food": 0
+      },
+      {
+        "value": 150,
+        "run": 2,
+        "initial_food": 308,
+        "remaining_food": 0
+      },
+      {
+        "value": 150,
+        "run": 3,
+        "initial_food": 312,
+        "remaining_food": 0
+      },
+      {
+        "value": 150,
+        "run": 4,
+        "initial_food": 300,
+        "remaining_food": 60
+      },
+      {
+        "value": 150,
+        "run": 5,
+        "initial_food": 323,
+        "remaining_food": 0
+      },
+      {
+        "value": 200,
+        "run": 1,
+        "initial_food": 319,
+        "remaining_food": 0
+      },
+      {
+        "value": 200,
+        "run": 2,
+        "initial_food": 310,
+        "remaining_food": 0
+      },
+      {
+        "value": 200,
+        "run": 3,
+        "initial_food": 311,
+        "remaining_food": 0
+      },
+      {
+        "value": 200,
+        "run": 4,
+        "initial_food": 325,
+        "remaining_food": 0
+      },
+      {
+        "value": 200,
+        "run": 5,
+        "initial_food": 306,
+        "remaining_food": 0
+      }
+    ]
+  }
+]
