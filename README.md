@@ -175,11 +175,3 @@ $$
 У рівномірній серії випаровування 0, 10, 20, 30, 40 середній результат зменшувався до значення 30, а за 40 зріс. У серії популяції 75, 100, 125, 150, 175 середня частка забраної їжі послідовно зростала від 78,07% до 100%. Це узгоджується зі збільшенням можливостей пошуку, перенесення їжі та підкріплення слідів. Залежність не є прямо пропорційною та обмежена запасом їжі.
 
 Повторні прогони дозволили уточнити початкові припущення: результат одного запуску не завжди відображає типовий перебіг моделі. Спостереження за стежками допомагають пояснювати результати, але причинні пояснення слід відрізняти від безпосередньо виміряних залежностей.
-
-## Джерела
-
-1. [Методичні вказівки до лабораторної роботи № 1](https://github.com/knureigs/GitHubDocs_Simulation/blob/main/lb/Simulation_Lab1/tutorial.md).
-2. [Приклад звіту](https://github.com/knureigs/GitHubDocs_Simulation/blob/main/lb/Simulation_Lab1/example.md).
-3. Wilensky, U. (1997). [NetLogo Ants model](https://ccl.northwestern.edu/netlogo/models/Ants). Center for Connected Learning and Computer-Based Modeling, Northwestern University.
-4. [Код та інтерфейс Ants у бібліотеці NetLogo Web](https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo).
-5. [NetLogo Programming Guide](https://docs.netlogo.org/programming.html).
